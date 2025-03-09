@@ -8,11 +8,14 @@
   position: relative;
   margin-right: 15%;
   width: 15%;
-  height: 70%;
+  height: 65%;
   left: 5%;
   top: 50%;
   translate: 0px -50%;
   border: 0;
   border-radius: 50%;
   background-color: gray;
+}
+img{
+  width: 50% !important;
 }
