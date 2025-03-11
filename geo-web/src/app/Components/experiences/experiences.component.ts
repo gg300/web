@@ -9,5 +9,14 @@ import {CommonModule} from '@angular/common';
   styleUrl: './experiences.component.css'
 })
 export class ExperiencesComponent {
-
+  experiences:{image:string,description:string}[] = [
+    {
+      image:'',
+      description:'experience'
+    },
+    {
+      image:'',
+      description:'experience'
+    }
+  ];
 }

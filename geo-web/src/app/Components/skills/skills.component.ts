@@ -8,5 +8,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
-skills = ['skill','skill','skill','skill','skill'];
+skills:string[] = ['skill','skill','skill','skill','skill'];
 }

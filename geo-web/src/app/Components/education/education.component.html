@@ -1,7 +1,7 @@
 <div class="education">
-    <div class="experience"><img src="https://www.upt.ro/images/universitatea-politehnica-timisoara.jpg">
-      <h5>Edupedu</h5>
-      <p>This is some thing</p>
+    <div class="experience" *ngFor="let education of educations"><img [src]=education.src>
+      <h5>{{education.title}}</h5>
+      <p>{{education.description}}</p>
     </div>
     <!-- add poli -->
   </div>
