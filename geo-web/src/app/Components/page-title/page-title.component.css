@@ -1,6 +1,9 @@
-.title{
+.page-title{
   position: relative;
   width: auto;
   height: 50px;
-  background-color: gray;
+}
+.title{
+  position: relative;
+  text-align: center;
 }

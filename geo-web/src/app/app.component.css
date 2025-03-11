@@ -1,7 +1,7 @@
 
 .container {
     margin: 0;
-    /* background-color: brown; */
+  background: linear-gradient(190deg, #4A1C40, #D9BBA9, #B87333);
     /* width: 100%;
     height: 100%; */
     position: relative;

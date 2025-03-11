@@ -1,7 +1,6 @@
 .certificates{
   width: auto;
   height: 200px;
-  background-color: gray;
   display: flex;
 }
 .certificate{
@@ -14,7 +13,6 @@
   translate: 0px -50%;
   border: 0;
   border-radius: 50%;
-  background-color: gray;
 }
 img{
   width: 50% !important;
@@ -24,4 +22,22 @@ img:hover{  /* TO DO */
   z-index: 9999 !important;
   width: auto !important;
   height: auto !important;
+}
+@media screen and (max-width: 800px){
+.certificate{
+  position: relative;
+  margin-right: 15%;
+  width: 15%;
+  height: 65%;
+  left: 5%;
+  top: 50%;
+  translate: 0px -50%;
+  border: 0;
+  border-radius: 50%;
+}
+img{
+  height: 35% !important;
+  width: 75% !important;
+}
+
 }

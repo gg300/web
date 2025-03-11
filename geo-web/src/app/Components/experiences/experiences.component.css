@@ -1,7 +1,6 @@
 .experiences{
     width: auto;
     height: 500px;
-    background-color: gray;
     display: flex;
 }
 .experience{
@@ -12,5 +11,4 @@
     left: 15%;
     translate: 0px -50%;
     margin-right: 30%;
-    background-color: gray;
 }

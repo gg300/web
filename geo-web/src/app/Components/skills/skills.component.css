@@ -1,7 +1,6 @@
 .skills{
     width: auto;
     height: 300px;
-    background-color: gray;
     display: flex;
 }
 .skill{
@@ -9,7 +8,6 @@
     width: 200px;
     height: 200px;
     margin-right: 5%;
-    background-color: gray;
     top:50%;
     translate: 0px -50%;
     left:5%;
