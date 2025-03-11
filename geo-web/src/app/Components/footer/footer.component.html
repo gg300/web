@@ -1,8 +1,6 @@
 <div class="footer">
-  <div class="footer_item">contact</div>
-  <div class="footer_item">social</div>
-  <div class="footer_item">social</div>
-  <div class="footer_item">contact</div>
-  <!-- add contacts -->
-  <!-- add social media -->
+  <div class="footer_item" *ngFor="let item of footer">
+    <span *ngIf="!item.link">{{item.name}}</span>
+    <a *ngIf="item.link" [href]=item.link>{{item.name}}</a>
+    </div>
 </div>
