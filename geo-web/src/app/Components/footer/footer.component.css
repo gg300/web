@@ -1,0 +1,15 @@
+.footer{
+  width: auto;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+}
+.footer_item{
+  position: relative;
+  width: 10%;
+  height: 30%;
+  /* background-color: black; */
+  margin-left: 10%;
+  top: 50%;
+  translate: 0px -50%;
+}

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PofilesComponent } from './pofiles.component';
+import { PageTitleComponent } from './page-title.component';
 
-describe('PofilesComponent', () => {
-  let component: PofilesComponent;
-  let fixture: ComponentFixture<PofilesComponent>;
+describe('PageTitleComponent', () => {
+  let component: PageTitleComponent;
+  let fixture: ComponentFixture<PageTitleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PofilesComponent]
+      imports: [PageTitleComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PofilesComponent);
+    fixture = TestBed.createComponent(PageTitleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
