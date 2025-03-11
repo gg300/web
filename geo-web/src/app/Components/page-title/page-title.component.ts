@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import {CommonModule} from '@angular/common';
 @Component({
   selector: 'app-page-title',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './page-title.component.html',
   styleUrl: './page-title.component.css'
 })

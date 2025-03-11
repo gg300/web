@@ -7,11 +7,11 @@ import {FooterComponent} from '../app/Components/footer/footer.component'
 import {ProfilesComponent} from '../app/Components/profiles/profiles.component'
 import {SkillsComponent} from '../app/Components/skills/skills.component'
 import {PageTitleComponent} from './Components/page-title/page-title.component';
-
+import {CommonModule} from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CertificatesComponent, EducationComponent, ExperiencesComponent, FooterComponent, ProfilesComponent, SkillsComponent, PageTitleComponent],
+  imports: [CommonModule,RouterOutlet, CertificatesComponent, EducationComponent, ExperiencesComponent, FooterComponent, ProfilesComponent, SkillsComponent, PageTitleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
