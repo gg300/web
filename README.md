@@ -1,2 +1,2 @@
-Frontend future open-source design of my website
+Frontend of my website
 Have fun watching this mess
