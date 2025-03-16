@@ -7,6 +7,8 @@ div{
   overflow: hidden;
 }
 p{
+  padding: 0px;
+  margin: 3px;
   position: relative;
   text-align: left;
   font-family: 'Roboto Thin';
