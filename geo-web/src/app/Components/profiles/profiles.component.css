@@ -3,3 +3,16 @@
     height: 600px;
     display: flex;
 }
+div{
+  overflow: hidden;
+}
+p{
+  position: relative;
+  text-align: left;
+  font-family: 'Roboto Thin';
+    @media screen and (max-width: 800px){
+      font-size: xx-small;
+      }
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
