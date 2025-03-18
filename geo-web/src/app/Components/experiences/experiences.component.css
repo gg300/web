@@ -10,5 +10,9 @@
     top: 50%;
     left: 15%;
     translate: 0px -50%;
-    margin-right: 30%;
+    margin-right: 20%;
+}
+img{
+  display: flex;
+  max-width: 100%;
 }

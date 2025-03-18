@@ -1,5 +1,6 @@
 <div class="experiences">
     <div class="experience" *ngFor="let experience of experiences">
+      <img [src]=experience.image>
       {{experience.description}}
     </div>
 
